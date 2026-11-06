@@ -1,0 +1,146 @@
+{
+  "revision": "v4",
+  "units": "mm",
+  "physical_fit_tested": true,
+  "source": "https://makerworld.com/en/models/2000710",
+  "source_author": "mr4lexndr",
+  "source_license": "BY-NC-SA from source 3MF metadata",
+  "meshes": {
+    "assembly": {
+      "watertight": true,
+      "consistent_winding": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          -26.64,
+          0.0,
+          -11.43
+        ],
+        [
+          93.38,
+          21.59,
+          25.2
+        ]
+      ],
+      "volume_mm3": 2829.569,
+      "triangles": 6556
+    },
+    "print": {
+      "watertight": true,
+      "consistent_winding": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          120.02,
+          36.63,
+          21.59
+        ]
+      ],
+      "volume_mm3": 2829.569,
+      "triangles": 6552
+    }
+  },
+  "checked_geometry": {
+    "panel_thickness_mm": 1,
+    "top_ear_thickness_mm": 1,
+    "top_ear_outer_x_unchanged_mm": -26.64,
+    "top_ear_bearing_face_x_mm": -25.64,
+    "gpu_depth_shift_mm": -1.4,
+    "gpu_bore_centers_xz_mm": [
+      [
+        13.7,
+        20.6
+      ],
+      [
+        61.7,
+        20.6
+      ]
+    ],
+    "gpu_bore_spacing_mm": 48,
+    "bore_to_inner_panel_distance_mm": 19.6,
+    "bore_diameter_mm": 2.2,
+    "counterbore_diameter_mm": 5,
+    "seat_thickness_mm": 1,
+    "locating_face_y_mm": 17.2,
+    "entire_gpu_flange_matches_v3_after_inverse_translation": true,
+    "root_z_range_mm": [
+      0.6,
+      2.8
+    ],
+    "root_panel_overlap_mm": 0.4,
+    "through_window_xz_bounds_mm": [
+      [
+        15,
+        3.6
+      ],
+      [
+        65,
+        16.6
+      ]
+    ],
+    "thin_zone_x_range_mm": [
+      73.38,
+      93.38
+    ],
+    "thin_zone_length_mm": 20,
+    "thin_zone_max_thickness_mm": 1,
+    "no_high_edge_rib": true,
+    "port_chamfer_depth_mm": 0.4,
+    "port_straight_wall_depth_mm": 0.6,
+    "latch_bridge_thickness_mm": 1,
+    "overall_length_mm": 120.02,
+    "all_four_ports_and_latch_xy_patterns_unchanged": true
+  },
+  "3mf_roundtrip": {
+    "print": {
+      "watertight": true,
+      "bounds_and_volume_match": true,
+      "units": "millimeter",
+      "slicer_presets": false
+    }
+  },
+  "assumptions": [
+    "V3 port and GPU screw fit and V4 chassis installation were confirmed by the user.",
+    "The coupled 1.4 mm depth change and thinner chassis ear were trial corrections, not independently measured case offsets.",
+    "Compatibility with other cases/coolers and long-term thermal or mechanical durability remain unverified."
+  ],
+  "physical_fit_evidence": {
+    "type": "user_report",
+    "reported_date": "2026-11-06",
+    "hardware": {
+      "gpu": "NVIDIA RTX A2000 12GB",
+      "cooler": "aftermarket single-slot cooler; exact model not recorded",
+      "material": "PETG",
+      "case": "exact model not recorded"
+    },
+    "confirmed": [
+      {
+        "revision": "v3",
+        "items": [
+          "all four miniDP apertures",
+          "both GPU mounting screw holes"
+        ]
+      },
+      {
+        "revision": "v4",
+        "items": [
+          "card with bracket installs into chassis successfully"
+        ]
+      }
+    ],
+    "v4_user_report_zh": "可以。安装没有问题。",
+    "scope": "One user build, not a compatibility certification.",
+    "not_tested_or_not_recorded": [
+      "long-term thermal exposure",
+      "mechanical load capacity",
+      "latch durability",
+      "electrical functionality",
+      "exact printer and slicing settings"
+    ]
+  }
+}

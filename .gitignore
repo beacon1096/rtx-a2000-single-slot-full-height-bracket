@@ -1,0 +1,5 @@
+.DS_Store
+*.gcode
+*.gcode.3mf
+*.bak
+*~

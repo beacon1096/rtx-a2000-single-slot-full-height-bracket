@@ -1,0 +1,19 @@
+Upstream license declaration: BY-NC-SA
+
+The GPU mounting flange and Mini DisplayPort aperture geometry are adapted from:
+  Rear Bracket for RTX A2000 Lenovo Tiny 5
+  Author: mr4lexndr
+  Source: https://makerworld.com/en/models/2000710
+
+The downloaded upstream 3MF declares "BY-NC-SA" but supplies no license version
+or license URL. This repository retains that declaration and attribution.
+It does not assign an unverified Creative Commons version or replace the
+upstream declaration with a permissive software license. Refer to the source
+model page for the author's published terms.
+
+Adaptation by beacon1096, 2026: full-height single-slot chassis outline,
+corrected chassis ends, recessed screw seats, external latch slots, PCB
+hardware clearance window, and 1 mm chassis faces with mounting-depth correction.
+
+This file records provenance and the supplied license declaration; it is not
+a substitute for the full applicable license text.
